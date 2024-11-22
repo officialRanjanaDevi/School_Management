@@ -15,7 +15,6 @@ app.use(express.static("public"));
 
 
 import schoolRouter from "./routes/school.routes.js";
-//routes declaration
 app.get('/', (req, res) => {
   res.send('Hi, World! Welcome to School Management');
  
