@@ -64,7 +64,7 @@ const showSchoolListing = asyncHandler(async (req, res) => {
  
     return res
         .status(200)
-        .json(new ApiResponse(200, listing, "Schools sorted by proximity!"));
+        .json(new ApiResponse(200, listing, "Schools sorted by your location!"));
 });
 
 
